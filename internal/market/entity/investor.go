@@ -13,6 +13,8 @@ func NewInvestor(id string) *Investor {
 	}
 }
 
+func (i *Investor) AddAssetPosition(assetPosition *InvestorAssetPosition)
+
 type InvestorAssetPosition struct {
 	AssetID string
 	Shares  int
