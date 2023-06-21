@@ -8,7 +8,7 @@ type Order struct {
 	PendingShares int
 	Price         float64
 	OrderType     string //buy /sell order
-	status        string
+	Status        string
 	Transactions  []*Transaction
 }
 
